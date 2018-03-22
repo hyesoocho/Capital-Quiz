@@ -33,7 +33,7 @@ question_answer_html_footer = """
 def get_state_capital():
     sc = []
     conn = pymysql.connect(host='localhost',
-                       user='root', password='myTlzhf1!',
+                       user='root', password='     ',
                        db='test', charset='utf8')
     curs = conn.cursor()
     sql = "select state, capital from state_capital"
